@@ -1,0 +1,13 @@
+import numpy as np
+
+a = np.array([10, 20, 30, 40, 50])
+b = np.array([[10, 20, 30], [40, 50, 60]])
+c = np.array([[[10, 20], [30, 40]], [[50, 60], [70, 80]]])
+
+print("1D Array:", a)
+print("2D Array:\n", b)
+print("3D Array:\n", c)
+
+print("\n1D - Dimensions:", a.ndim, "Shape:", a.shape)
+print("2D - Dimensions:", b.ndim, "Shape:", b.shape)
+print("3D - Dimensions:", c.ndim, "Shape:", c.shape)
